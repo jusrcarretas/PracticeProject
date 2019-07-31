@@ -1,4 +1,4 @@
-from .views import (
+from .api import (
     PersonListAPIView,
     CreatePersonAPIView,
     UpdatePersonAPIView,

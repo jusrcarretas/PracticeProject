@@ -1,4 +1,77 @@
+# sqlite
+*.sqlite3
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 *.pyc
-*.DS_Store
 
 
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Frontend
+node_modules/
+
+# Mac-specific
+.DS_Store
+
+local.py
+production.py
+/static
+/media
+/backup
+/doodle
+bower_components/
+node_modules/
+dist/
+.python-version
+
+# Vscode settings
+.vscode/
+
+/env
+
+data/
+
+/data
+
+# SETTINGS FILES
+local_settings.py
+dev_settings.py
+prod_settings.py
+
+prepros-6.config
+
+# LOGS
+logs/
+.log.*

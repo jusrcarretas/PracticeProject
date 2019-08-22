@@ -5,8 +5,6 @@ from .api import (
     DeletePersonAPIView,
 )
 from django.urls import path
-import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "kiosk.settings")
 
 app_name = 'profiling'
 urlpatterns = [
